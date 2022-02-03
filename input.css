@@ -1,0 +1,35 @@
+.simple-input{
+    border-radius: 0.425rem;
+    height: 2rem;
+    border: 0.03rem solid rgb(0, 0, 0);
+    padding: 0.1rem;
+    width: 15rem;
+    text-indent: 0.3rem;
+}
+
+.simple-input:focus{
+    outline: 0.03rem solid rgb(209, 158, 245);
+}
+
+::placeholder{
+    padding:0.2rem;
+}
+
+.error-input{
+    border-radius: 0.425rem;
+    height: 2rem;
+    border: 0.03rem solid rgb(0, 0, 0);
+    padding: 0.1rem;
+    width: 15rem;
+    text-indent: 0.3rem;
+}
+
+.error-input:focus{
+    outline: 0.03rem solid rgb(184, 93, 70);
+}
+
+.error-msg{
+    color: rgb(184, 93, 70);
+}
+
+
