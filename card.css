@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+background-color: lightgray;
+font-family: 'Source Sans Pro', sans-serif;
+display: flex;
+flex-wrap: wrap;
+}
+
+.main-content{
+    display: flex;
+    flex-direction:column;
+    margin: 2rem;
+}
+.badge-cards{
+    display: flex;
+    flex-direction: column;
+    width:15rem;
+    height: 20rem;
+    background-color: white;
+    border: 0.0125rem solid #312e81;
+    justify-content: space-around;
+    position:relative;
+    padding: 0.5rem;
+    border-radius: 0.3125rem;
+}
+
+.fa-bookmark{
+    position: absolute;
+    top: -0.2rem;
+    right: 1rem;
+    color: #4f46e5;
+}
+
+.brand-name{
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.product-name{
+    font-size: 0.9rem;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.offer{
+    color: #84cc16;
+}
+
+.sub-content{
+    display: flex;
+    justify-content: space-between;
+    width: 11rem;
+
+}
+
+.txt-line-through{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.rating{
+    background-color: #16a34a;
+    color: #f0fdf4;
+    font-size: 0.875rem;
+    border-radius: 0.1875rem;
+    padding: 0.2rem;
+}
+
+.add-to-cart{
+    background-color:#312e81;
+    border:none;
+    padding:0.4rem;
+    color: #eef2ff;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+.fa-times{
+    position: absolute;
+    top: 0.6rem;
+    right:0.1rem;
+    color: #eef2ff;
+    padding:6px;
+    background-color: black;
+    align-self: flex-end;
+    margin-right: 5px;
+    font-size:1rem;
+    border-radius: 50%;
+}
+
+.overlay{
+    position: absolute;
+    top:9.5rem;
+    left:0.8rem;
+    color: white;
+    text-shadow: black;
+}
+
+.shadow{
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.288);
+}
