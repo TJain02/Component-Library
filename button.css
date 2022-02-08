@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif
+}
+
+.primary-btn{
+    border-radius: 0.3125rem;
+    background-color: #6366f1;
+    color: #eef2ff;
+    border: none;
+    height: 2rem;
+    width:5.5rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.secondary-btn{
+    border-radius: 0.3125rem;
+    color: #6366f1;
+    border: 0.0125rem solid #6366f1 ;
+    background-color: #eef2ff;
+    height: 2rem;
+    width:5.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.link-btn{
+    border:none;
+    background-color: transparent;
+    color: #6366f1 ;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.link-btn:hover{
+    color: red;
+}
+
+.icon-btn{
+    border-radius: 0.3125rem;
+    background-color: rgb(74, 7, 122);
+    color: #eef2ff;
+    border: none;
+    height: 2.5rem;
+    width:10rem;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.float-btn{
+    border-radius: 50%;
+    width:3rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    background-color: #4f46e5;
+    color: #eef2ff;
+    border: none;
+    cursor: pointer;
+}
