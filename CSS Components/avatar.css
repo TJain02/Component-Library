@@ -1,3 +1,7 @@
+:root{
+    --online-color : rgb(49, 194, 49);
+    --offline-color : red;
+}
 body{
     background-color: lightgray;
 }
@@ -9,11 +13,11 @@ body{
 }
 
 .avatar-color-one{
-    border: 0.3rem solid rgb(49, 194, 49);
+    border: 0.3rem solid var(--online-color);
 }
 
 .avatar-color-two{
-    border: 0.3rem solid red;
+    border: 0.3rem solid var(--offline-color);
 }
 
 .avatar-xs{

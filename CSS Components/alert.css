@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+:root{
+    --error-color:rgb(201, 3, 3);
+    --success-color:rgb(22, 122, 22);
+    --expiry-color:rgb(10, 10, 139);
+}
+
 .container{
     display: flex;
     justify-content: space-between;
@@ -33,15 +39,15 @@
 
 .error-container>.fas{
     margin:0.187rem;
-    color: rgb(201, 3, 3);
+    color: var(--error-color);
 }
 
 .success-container>.fas{
     margin:0.187rem;
-    color: rgb(22, 122, 22);
+    color: var(--success-color);
 }
 
 .expiry-container>.fas{
     margin:0.187rem;
-    color: rgb(10, 10, 139);
+    color: var(--expiry-color);
 }
