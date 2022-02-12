@@ -9,8 +9,7 @@ body{
     background-color: #6366f1;
     color: #eef2ff;
     border: none;
-    height: 2rem;
-    width:5.5rem;
+    padding:0.5rem;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
