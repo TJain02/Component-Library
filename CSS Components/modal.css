@@ -15,7 +15,7 @@
     right:45vw;
     top:40vh;
     align-items: center;
-    justify-content: space;
+    justify-content: space-around;
     background-color: #eef2ff;
     box-shadow: 0 0.325rem 0.325rem 0 rgba(0, 0, 0, 0.082) ;
 }
