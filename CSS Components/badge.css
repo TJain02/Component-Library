@@ -6,11 +6,13 @@
 body{
     background-color: white;
 }
-.container{
+.badge-container{
+    margin-top: 0;
+    top: 0;
     position: relative;
     display: inline-block;
 }
-.fas{
+.fa-bell{
     font-size:1.75rem;
     margin:1rem;
 }
@@ -22,7 +24,7 @@ body{
     background-color: var(--online-color);
     color: whitesmoke;
     text-align: center;
-    padding-top:0.1rem;
+    /* padding-top:0.1rem; */
 }
 
 .badge-two{
@@ -40,7 +42,7 @@ body{
     margin:1rem;
 }
 
-.avatar-img{
+.avatar-badge-img{
     width:3.125rem;
     height:3.125rem;
     border-radius: 50%;

@@ -7,23 +7,28 @@
     border-bottom: 1px solid rgba(37, 36, 36, 0.027);
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.075);
     background-color: 
-    #4338ca;
+    #090553;;
     border-radius:0.35rem;
     color: #e0e7ff;
+    flex-wrap: wrap;
+}
+
+.lib-logo{
+    display: flex;
 }
 
 .hero-img{
     width:3.85rem;
     height:3.85rem;
     border-radius: 50%;
-    border: 2px solid #e0e7ff;
+    border: 2px solid #fde68a;
 }
 
 .header-name{
     font-size: 1.5rem;
     margin-left:1vw;
-    margin-right:73vw;
     align-self: center;
+    color: #fde68a;
 }
 
 .github-btn{
@@ -32,12 +37,9 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    color: #e0e7ff;
 }
 
-.github-logo{
-    width: 5rem;
-    
-}
 
 .content-container{
     display: flex;
@@ -64,5 +66,9 @@
 
 .footer-msg{
     text-align: center;
+}
 
+.button-nav{
+    color: #e0e7ff;
+    text-decoration: none;
 }

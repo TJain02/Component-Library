@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
 }
 
 .primary-btn{
@@ -13,6 +13,7 @@ body{
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    margin: 0.5rem;
 }
 
 .secondary-btn{
@@ -24,6 +25,7 @@ body{
     width:5.5rem;
     font-size: 1.2rem;
     cursor: pointer;
+    margin: 0.5rem;
 }
 
 .link-btn{
@@ -33,13 +35,14 @@ body{
     font-size: 1.2rem;
     cursor: pointer;
     text-decoration: underline;
+    margin: 0.5rem;
 }
 
 .link-btn:hover{
     color: red;
 }
 
-.icon-btn{
+.cart-btn{
     border-radius: 0.3125rem;
     background-color: rgb(74, 7, 122);
     color: #eef2ff;
@@ -49,6 +52,7 @@ body{
     font-size: 1.1rem;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    margin: 0.5rem;
 }
 
 .float-btn{
@@ -60,4 +64,5 @@ body{
     color: #eef2ff;
     border: none;
     cursor: pointer;
+    margin: 0.5rem;
 }
