@@ -1,0 +1,22 @@
+
+.navigation-container{
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    background-color:#090553;
+    padding:1rem;
+    color: #eef2ff;
+    border-radius: 0.3125rem;
+  }
+  
+  .navigation-header{
+    flex-grow:1;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  
+  .toolBar{
+    display: flex;
+    justify-content:space-around;
+    width:6rem;
+  } 
