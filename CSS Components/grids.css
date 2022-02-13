@@ -1,0 +1,22 @@
+.grids-container-two ,.grids-container-three{
+    display: grid;
+    background-color:#eef2ff;
+    padding: 1rem;
+    column-gap: 1rem;
+    margin: 1rem;
+}
+
+.gridItem{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grids-container-two {
+      grid-template-columns: auto auto;
+  }
+
+.grids-container-three{
+    grid-template-columns: auto auto auto;
+} 
