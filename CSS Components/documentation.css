@@ -6,6 +6,10 @@
 @import './input.css';
 @import './styles.css';
 @import './badge.css';
+@import './text-utilities.css';
+@import './navigation.css';
+@import './modal.css';
+@import './snackbar.css';
 
 .hero-img{
     width:3rem;
@@ -21,6 +25,7 @@
 
 .lib-logo{
     display: flex;
+    align-items: center;
 }
 
 .navbar{
@@ -28,19 +33,26 @@
     background-color:#090553;
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
     padding: 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 5px;
     position: fixed;
     z-index: 1;
-    right:0.5rem;
-    left: 0.5rem;
+    right:0.1rem;
+    left: 0.1rem;
     top: 0.1rem;
+}
+
+.linking-container{
+    display: flex;
     flex-wrap: wrap;
+    font-size: 1.25rem;
 }
 
 
 .button-nav{
-    margin: 0.1rem;
+    margin-left: 0.2rem;
+    font-size: 1rem;
+    padding: 0rem;
     background-color: transparent;
     color: #eef2ff;
     text-decoration: none;

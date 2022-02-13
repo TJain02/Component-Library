@@ -39,7 +39,7 @@ flex-wrap: wrap;
     border-radius: 50%;
 }
 
-.fa-bookmark{
+.badge-onCard{
     position: absolute;
     top: -0.2rem;
     right: 1rem;
@@ -94,7 +94,7 @@ flex-wrap: wrap;
     cursor:pointer;
 }
 
-.fa-times{
+.card-close{
     color: #eef2ff;
     background-color: black;
     width: 1.3rem;
