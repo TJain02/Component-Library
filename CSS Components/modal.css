@@ -1,0 +1,54 @@
+@import './button.css';
+
+:root{
+    --dark-indigo: #090553;
+    --light-indigo: #eef2ff;
+}
+
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    font-size: 1.25rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid var(--dark-indigo);
+    padding: 1rem;
+    position: fixed;
+    width: 17rem;
+    height: 7rem;
+    left:37vw;
+    right:45vw;
+    top:40vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--light-indigo);
+    box-shadow: 0 0.325rem 0.325rem 0 rgba(0, 0, 0, 0.082) ;
+}
+
+.modal-txt{
+    text-align: center;
+    color: var(--dark-indigo);
+    font-weight: 560;
+}
+
+.action-btn{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    align-items: center;
+    
+}
+
+.modal-no{
+    width: 5rem;
+    height: 2rem;
+    padding: 0.1rem;
+    text-align: center;
+}
+.modal-yes{
+    width: 5rem;
+    height: 1rem;
+    text-align: center;
+    padding-bottom: 1.8rem ;
+}
+
