@@ -1,0 +1,12 @@
+@import './button.css';
+
+.small-txt{
+    font-size: small;
+}
+.gray-txt{
+    color : gray;
+}
+
+.center-txt{
+    text-align: center;
+}
