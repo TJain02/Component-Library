@@ -14,25 +14,32 @@
 .hero-img{
     width:3rem;
     height:3rem;
+    align-self: center;
     border-radius: 50%;
-    margin-right: 0rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.3rem;
 }
 .header-name{
-    font-size:1.25rem;
-    margin-right: 1rem;
+    font-size:1.125rem;
+    margin-right:1.2rem;
     color: #fde68a;
+    text-align: center;
+    
 }
 
 .lib-logo{
     display: flex;
+    width: 5rem;
+    flex-direction: column;
     align-items: center;
 }
 
 .navbar{
     display: flex;
+    height: 6rem;
     background-color:#090553;
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
-    padding: 1rem;
+    padding: 0.5rem;
     justify-content: space-around;
     border-radius: 5px;
     position: fixed;
@@ -45,12 +52,15 @@
 .linking-container{
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
+    justify-content: flex-start;
 }
 
 
 .button-nav{
-    margin-left: 0.2rem;
+    margin:3px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     font-size: 1rem;
     padding: 0rem;
     background-color: transparent;
