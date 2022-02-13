@@ -1,11 +1,15 @@
+:root{
+  --dark-indigo: #090553;
+  --light-indigo: #eef2ff;
+}
 
 .navigation-container{
     font-size: 1.25rem;
     display: flex;
     justify-content: space-between;
-    background-color:#090553;
+    background-color: var(--dark-indigo);
     padding:1rem;
-    color: #eef2ff;
+    color: var(--light-indigo);
     border-radius: 0.3125rem;
   }
   
