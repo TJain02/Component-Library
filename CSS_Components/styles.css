@@ -12,6 +12,11 @@
     flex-wrap: wrap;
 }
 
+.github-link{
+    text-decoration: none;
+    color: #e0e7ff;
+}
+
 .lib-logo{
     display: flex;
 }
@@ -36,7 +41,6 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: #e0e7ff;
 }
 
 
