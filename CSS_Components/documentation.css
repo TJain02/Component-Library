@@ -12,6 +12,7 @@
 @import './snackbar.css';
 @import './grids.css';
 @import './rating.css';
+@import './lists.css';
 
 .hero-img{
     width:3rem;
