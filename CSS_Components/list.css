@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import '/CSS_Components/card.css';
+.simple-list{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 13rem;
+    height: 15rem;
+    border: 0.0925rem solid black;
+    border-radius: 0.3125rem;
+    list-style: none;
+    padding-left: 0;
+    box-shadow: 0 0.3125rem 0.3125rem 0 rgba(0, 0, 0, 0.096);
+}
+
+.list-name{
+    border-bottom:0.001px solid rgba(117, 103, 103, 0.349);
+    width: 91%;
+    margin-left: 0.3125rem;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+    padding-top: 0;
+    font-size: 1.25rem;
+    font-weight: 580;
+    list-style: none;
+}
+
+.list-item{
+    padding-left: 1rem;
+    padding-top: 0rem;
+    font-size: 1rem;
+}
+.stacked-list{
+    list-style: none;
+    background-color:#eef2ff;
+    padding: 1rem;
+}
